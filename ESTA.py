@@ -8,9 +8,9 @@ from spotipy.oauth2 import SpotifyOAuth
 import pyautogui
 import time
 
-CLIENT_ID = 'f1414065fd684766b0224e65b76e7e9a'
-CLIENT_SECRET = 'b05311b8e83a4652986f54181bcafb2f'
-REDIRECT_URI = 'http://localhost:8888/callback'
+CLIENT_ID = '......'
+CLIENT_SECRET = '........'
+REDIRECT_URI = '.......'
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                client_secret=CLIENT_SECRET,
